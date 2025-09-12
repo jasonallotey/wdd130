@@ -14,12 +14,14 @@ h1{
 }
 
  main img{
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    display: block;
-    margin: 0 auto;
+     width: 300px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid darkblue;
+            display: block;
+            margin: 0 auto;
+            padding: 8px;
+            box-shadow: 0 4px 12px rgba(44,62,80,0.12);
  }
 
 p{
