@@ -14,8 +14,12 @@ h1   {
 }
 
  main img{
-     margin: 0 auto;
-     max-width: 400px;
+     width: 150px;
+     height: auto;  
+     border: 1px solid rgba(0, 0, 0, 0.2);     
+    padding: 1cm;
+    box-shadow: 0 0 30px gray;
+
 }
 
 p{
