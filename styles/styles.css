@@ -14,11 +14,10 @@ h1{
 }
 
  main img{
-    width: 150px;
+    width: 300px;
     height: auto;
-    border: 1x solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px;
 }
 
 p{
