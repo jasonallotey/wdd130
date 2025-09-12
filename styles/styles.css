@@ -5,12 +5,12 @@ nav{
 
 nav a{
     color: white;
-    display: block;
     padding: 20px;
+    display: block;
 }
 
-h1{
-    color: darkblue;    
+h1   {
+    color: steelblue;    
 }
 
  main img{
@@ -23,8 +23,7 @@ h1{
 }
 
 p{
-    padding: 0;
-
+    padding:0;
 }
 
 
