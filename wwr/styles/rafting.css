@@ -71,6 +71,7 @@ h1, h2 {
     width: 100%;
     height: auto;
     display: block;
+    float: right;
 }
 
 .hero h1 {
@@ -169,6 +170,7 @@ footer {
 .social-links {
     display: flex;
     gap: 1rem;
+    text-decoration: none;
 }
 
 .social-links img {
