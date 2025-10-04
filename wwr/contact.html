@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for White Water Rafting company">
+    <meta name="author" content="Jason Allotey">
+    <title>Contact Us - White Water Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/whitewaterrafting.png" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 123 Rafting Way, River City, USA</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> <a href="mailto:info@whitewaterrafting.com">info@whitewaterrafting.com</a></p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153168!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1a0b1b0b1b!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1625045440000!5m2!1sen!2sau"
+                width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/profile.jpg" alt="John Doe - Rafting Manager">
+                <figcaption>John Doe - Rafting Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/profile.jpg" alt="Jane Smith - Senior Guide">
+                <figcaption>Jane Smith - Senior Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/profile.jpg" alt="Bob Johnson - Guide">
+                <figcaption>Bob Johnson - Guide</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose:</legend>
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label><br>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 White Water Rafting | Jason Allotey</p>
+        <nav class="social-links">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
